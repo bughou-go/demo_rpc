@@ -1,0 +1,1 @@
+thrift -gen go:thrift_import=demo_rpc/vendor/thrift -out . demo.thrift

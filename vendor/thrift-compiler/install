@@ -1,0 +1,8 @@
+set -v
+
+tar zxvf thrift-0.9.3.tar.gz || exit
+cd thrift-0.9.3 || exit
+
+./configure --disable-tutorial --without-cpp --without-qt4 --without-qt5 --without-c_glib --without-csharp --without-java --without-erlang --without-nodejs --without-lua --without-python --without-perl --without-php --without-php_extension --without-ruby --without-haskell --without-go --without-haxe --without-d || exit
+make || exit
+sudo make install || exit

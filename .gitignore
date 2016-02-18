@@ -1,0 +1,4 @@
+.*.swp
+*.test
+
+/vendor/thrift-compiler/thrift-0.9.3
